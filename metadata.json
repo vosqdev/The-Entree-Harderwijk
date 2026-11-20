@@ -1,0 +1,8 @@
+{
+  "name": "Zandlaan Harderwijk — Netbewuste Gebiedsontwikkeling",
+  "description": "Ambitiedocument (consultatiefase v0.3) voor Greenfield Smart Energyhub Zandlaan — The Entree Harderwijk, door Circul8 Development en VOVON Development.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
