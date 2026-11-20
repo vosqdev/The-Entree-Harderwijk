@@ -25,13 +25,13 @@ export const FaqSection: React.FC = () => {
         <div className="max-w-3xl mb-10">
           <div className="inline-flex items-center gap-2 text-xs font-semibold tracking-wide text-[#557A64] mb-3">
             <HelpCircle className="w-4 h-4 text-[#509799]" />
-            <span>Vragen &amp; Antwoorden · Ambitiedocument v0.3</span>
+            <span>Analyse-, Onderzoeks- &amp; Ontwerpfase · Ambitiedocument v0.3</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1F2928] tracking-tight">
             Veelgestelde vragen over De Zandlaan
           </h2>
           <p className="mt-4 text-base sm:text-lg text-[#1F2928]/75 leading-relaxed">
-            Feitelijke toelichting op netcapaciteit, batterijopslag (BESS), waterstof als netstabilisator, TDTR/CSC-contracten en deelname aan de Samenwerkingstafel.
+            Toelichting vanuit de huidige analyse-, onderzoeks- en ontwerpfase: welke kansen, varianten en aandachtspunten we nu verkennen en wat nog gezamenlijk wordt onderzocht aan de Samenwerkingstafel.
           </p>
         </div>
 

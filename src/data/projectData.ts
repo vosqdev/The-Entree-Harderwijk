@@ -400,83 +400,83 @@ export const FAQ_ITEMS: FaqItem[] = [
     category: 'algemeen',
     question: 'Wat is Smart Energyhub Zandlaan — The Entree Harderwijk?',
     answer:
-      'Het is een initiatief van Circul8 Development en VOVON Development om het versnipperde bedrijventerrein rond de Zandlaan (tussen het spoor, de N302 en de A28) te transformeren tot een multimodale greenfield energiehub en innovatiezone voor Harderwijk en de regio Noord-Veluwe.'
+      'Het is een verkennend initiatief van Circul8 Development en VOVON Development dat zich in de analyse-, onderzoeks- en ontwerpfase bevindt. Samen met betrokken partijen wordt onderzocht of en hoe het bedrijventerrein rond de Zandlaan (tussen het spoor, de N302 en de A28) in de toekomst kan uitgroeien tot een multimodale energiehub en innovatiezone voor Harderwijk en de Noord-Veluwe. Er liggen nog geen definitieve plannen of besluiten vast.'
   },
   {
     id: 'faq-2',
     category: 'planning',
     question: 'Wat is de status van dit Ambitiedocument (versie 0.3)?',
     answer:
-      'Voor u ligt versie 0.3 uit november 2026: een 80%-versie in de consultatiefase. Het is nadrukkelijk nog geen definitief bestemmingsplan of vergunde bouwtekening, maar een uitnodiging aan gemeente Harderwijk, netbeheerders, grondeigenaren, ondernemers en onderwijs om mee te denken en samen de volgende versie op te stellen.'
+      'Versie 0.3 (november 2026) is een werk- en consultatiedocument uit de huidige analyse- en verkenningsfase — nadrukkelijk géén bestemmingsplan, vergunningaanvraag of definitief ontwerp. Het bundelt eerste gebiedsanalyses, kansen en ontwerprichtingen als startpunt om met gemeente Harderwijk, netbeheerders, grondeigenaren, ondernemers en onderwijs het gesprek te voeren en gezamenlijk de onderzoeksvragen voor versie 0.4 vast te stellen.'
   },
   {
     id: 'faq-3',
     category: 'algemeen',
-    question: 'Waarom juist op De Zandlaan in Harderwijk?',
+    question: 'Waarom wordt juist De Zandlaan in Harderwijk onderzocht?',
     answer:
-      'De Zandlaan ligt op het kruispunt van de A28, N302, de spoorlijn en zowel gas- (FGU/Gasunie) als elektriciteitsnetten (20–50kV Liander en nabij het 150kV hoogspanningsonderstation Harderwijk HD150). Juist omdat het stroomnet in de FGU-regio aan zijn grenzen zit, biedt deze plek unieke koppelkansen voor opwek, opslag en logistiek.'
+      'Uit onze eerste gebiedsanalyse komt De Zandlaan naar voren als een bijzonder knooppunt van infrastructuur: de A28, de N302, de spoorlijn, het gasnet (FGU/Gasunie) en elektriciteitsnetten (20–50kV van Liander nabij het 150kV-hoogspanningsonderstation Harderwijk). Juist omdat het stroomnet in de FGU-regio aan zijn grenzen zit, willen we in de onderzoeks- en ontwerpfase toetsen of opwek, opslag en logistiek op deze plek technisch en ruimtelijk slim te verbinden zijn.'
   },
   {
     id: 'faq-4',
     category: 'techniek',
-    question: 'Hoeveel batterijopslag (BESS) is er rond Harderwijk nodig?',
+    question: 'Welke rol speelt batterijopslag (BESS) in de verkenning?',
     answer:
-      'Volgens de routekaart van TenneT is in de FGU-regio tot 2030 behoefte aan 1.000 tot 2.000 MW batterijopslag (onderdeel van 5–7 GW landelijk). Rond HS-station Harderwijk kan de regio Noord-Veluwe 50 tot 250 MW faciliteren, wat met huidige opstellingen neerkomt op 1 tot 4 hectare ruimtegebruik.'
+      'In de analyse kijken we naar de regionale opslagbehoefte die netbeheerders schetsen: in de FGU-regio wordt tot 2030 rekening gehouden met circa 1.000 tot 2.000 MW, waarvan een deel rond HS-station Harderwijk zou kunnen landen (indicatief 50 tot 250 MW, circa 1 tot 4 hectare). Of en op welke schaal batterijopslag aan de Zandlaan ruimtelijk, veiligheidsmatig en financieel inpasbaar is, wordt in het komende ontwerpend onderzoek verder getoetst.'
   },
   {
     id: 'faq-5',
     category: 'techniek',
-    question: 'Wat wordt bedoeld met TDTR- en CSC-contracten?',
+    question: 'Waarom worden TDTR- en CSC-contracten onderzocht?',
     answer:
-      'TenneT geeft aan dat de businesscase voor batterijen in Nederland onder druk staat door hoge transporttarieven. Door batterijen en elektrolyse aan te sluiten op restruimte via Tijdsduurgebonden Transportrechten (TDTR) en Capaciteitssturende Contracten (CSC), worden zowel netinvesteringen als transportkosten verlaagd en ontstaat meer systeemwaarde.'
+      'Uit de eerste beleidsmatige en financiële analyse blijkt dat reguliere transporttarieven de haalbaarheid van batterijopslag in Nederland vaak onder druk zetten. Daarom onderzoeken we samen met TenneT en Liander of flexibele contractvormen — zoals Tijdsduurgebonden Transportrechten (TDTR) en Capaciteitssturende Contracten (CSC) op restruimte in het net — mogelijk uitkomst bieden en netinvesteringen kunnen helpen beperken.'
   },
   {
     id: 'faq-6',
     category: 'techniek',
-    question: 'Waarom wordt waterstof genoemd als netstabilisator?',
+    question: 'Hoe wordt er in het onderzoek gekeken naar waterstof als mogelijke netstabilisator?',
     answer:
-      'Geïnspireerd op de 20 MW HySynergy-elektrolyser van Everfuel in Denemarken kan een elektrolyser meedoen aan automatische netbalancering (aFRR met ~5 min responstijd): bij stroomtekort schakelt het verbruik omlaag, bij overschot gaat de waterstofproductie omhoog. Zo levert elektrolyse flexibiliteit én groene waterstof.'
+      'In deze verkenningsfase bestuderen we praktijkvoorbeelden waarbij elektrolysers niet alleen groene waterstof produceren, maar ook flexibel mee- en terugregelen op het stroomnet (bijvoorbeeld voor aFRR-netbalancering met korte responstijd). Of een dergelijke toepassing technisch, veiligheidsmatig en economisch haalbaar is op de Zandlaan, moet blijken uit vervolgonderzoek met netbeheerders en gespecialiseerde partners.'
   },
   {
     id: 'faq-7',
     category: 'techniek',
-    question: 'Hoe wordt de geproduceerde waterstof afgevoerd en gebruikt?',
+    question: 'Hoe wordt eventuele waterstofproductie meegenomen in het ruimtelijk ontwerp?',
     answer:
-      'In de beginfase wordt gekeken naar afvoer per spoor en lokale inzet voor duurzame mobiliteit en bedrijvigheid. Op de langere termijn (horizon 10–15 jaar) ligt er perspectief voor koppeling met de landelijke Gasunie Hynetwork-buisleiding. Daarnaast kunnen restwarmte en zuurstof worden hergebruikt in nabijgelegen bebouwing en de rioolzuivering.'
+      'In de huidige ontwerpfase verkennen we verschillende scenario’s zonder al een keuze te maken. Zo wordt gekeken naar kleinschalige lokale inzet of mogelijke afvoer via het naastgelegen spoor in een vroege fase, en naar een eventuele langetermijnkoppeling met de landelijke Gasunie Hynetwork-buisleiding (horizon 10–15 jaar). Ook onderzoeken we of vrijkomende restwarmte en zuurstof op termijn nuttig in de omgeving hergebruikt kunnen worden.'
   },
   {
     id: 'faq-8',
     category: 'techniek',
-    question: 'Wat is het verschil tussen een systeembatterij en een GDS-batterij?',
+    question: 'Welke aansluitvarianten voor batterijopslag worden in de studie vergeleken?',
     answer:
-      'Een energie-netgerelateerde systeembatterij staat direct nabij een 110–150kV hoogspanningsstation voor flexibiliteit en netbalans. Een opwekgerelateerde co-locatie batterij opereert binnen een Gesloten Distributiesysteem (GDS) nabij een privaat onderstation, gekoppeld aan zon- en windopwek voor piekopslag en de balanceringsmarkt.'
+      'Tijdens de analyse- en onderzoeksfase leggen we meerdere nettopologieën naast elkaar. Enerzijds bekijken we een netgerelateerde systeembatterij nabij het 110–150kV-hoogspanningsstation voor regionale netbalans; anderzijds verkennen we co-locatie binnen een Gesloten Distributiesysteem (GDS) gekoppeld aan lokale opwek en bedrijven. Welke variant of combinatie het meest kansrijk is, volgt pas uit gezamenlijk technisch onderzoek met TenneT en Liander.'
   },
   {
     id: 'faq-9',
     category: 'omgeving',
-    question: 'Komt er ook duurzame opwek zoals zonne-energie of windenergie?',
+    question: 'Wordt er ook gekeken naar zonne-energie of windenergie op deze locatie?',
     answer:
-      'Het concept onderzoekt zonne-energie op daken én verkent op een verantwoorde manier of een innovatieve, architectonische verticale-as windturbine (zoals het Wingardium-concept) kan fungeren als herkenbare groene toegangspoort (“The Entree”) langs de A28, mits ruimtelijk en maatschappelijk passend.'
+      'Ja, op verkennend niveau. Binnen het ontwerpend onderzoek kijken we naar kansen voor zonne-energie op bestaande en toekomstige daken en verkennen we voorzichtig of kleinschalige, architectonisch ingepaste verticale-as windopwek zou kunnen passen bij het concept “The Entree” langs de A28. Ruimtelijke kwaliteit, milieu- en geluidsnormen en draagvlak in de omgeving zijn daarbij bepalend — er is nog niets besloten.'
   },
   {
     id: 'faq-10',
     category: 'omgeving',
-    question: 'Hoe wordt rekening gehouden met groen, water en de spoorlijn?',
+    question: 'Hoe worden groen, water en de spoorlijn meegenomen in het ontwerpend onderzoek?',
     answer:
-      'In Voorstel 1 wordt de Zandlaan opgedeeld in samenhangende zones, inclusief een groen-blauwe zone met waterberging, ecologie en recreatieve verbindingen naar Parkzone en Eendenbuiten. Op lange termijn (horizon 2040) wordt zelfs verkend hoe een onderdoorgang van het spoor de natuur, bedrijvigheid en nieuwe woningbouw met elkaar kan verbinden.'
+      'In onze eerste ruimtelijke schetsen onderzoeken we hoe energie-infrastructuur en landschap elkaar kunnen versterken. We verkennen onder meer een groen-blauwe zone met waterberging, ecologie en recreatieve verbindingen richting Parkzone, Hierden en Eendenbuiten. Als langetermijnverkenning (horizon 2040) nemen we in de ontwerpstudie ook de gedachte aan een mogelijke spooronderdoorgang mee.'
   },
   {
     id: 'faq-11',
     category: 'algemeen',
-    question: 'Welke rol spelen onderwijs en lokale ondernemers?',
+    question: 'Welke rol kunnen onderwijs en lokale ondernemers krijgen in deze fase?',
     answer:
-      'The Entree wordt nadrukkelijk ontworpen als een living lab waar scholen, mbo’s en hogescholen praktijkkennis opdoen over energietechniek en duurzaamheid. Lokale ondernemers aan de Zandlaan denken actief mee over locatie-inbreng, gedeelde laadinfrastructuur en een gezamenlijke gebiedsmanagementorganisatie.'
+      'In de analyse- en ontwerpfase gaan we eerst actief in gesprek met lokale ondernemers aan de Zandlaan en regionale onderwijsinstellingen (scholen, mbo’s en hogescholen). Samen verkennen we welke energiebehoeften, perceelkansen en praktijkvraagstukken er leven, en of het gebied zich op termijn leent voor een gezamenlijk living lab en een collectieve gebiedsmanagementorganisatie.'
   },
   {
     id: 'faq-12',
     category: 'planning',
-    question: 'Hoe kan ik of mijn organisatie meedenken over versie 0.4?',
+    question: 'Hoe kan ik of mijn organisatie meedenken in deze onderzoeks- en ontwerpfase?',
     answer:
-      'Via het consultatieformulier op deze website of rechtstreeks per e-mail naar de initiatiefnemers (Circul8 Development en VOVON Development) kunt u uw ambities, wensen of aandachtspunten delen voor de Samenwerkingstafel en de volgende versie van het Ambitiedocument.'
+      'Juist omdat het initiatief zich nog volledig in de analyse-, onderzoeks- en ontwerpfase bevindt, is inbreng uit de omgeving en van stakeholders erg welkom. Via het consultatieformulier op deze website of per e-mail naar Circul8 Development en VOVON Development kunt u vragen, aandachtspunten, onderzoeksvragen of eigen ambities aandragen voor de Samenwerkingstafel en versie 0.4.'
   }
 ];
