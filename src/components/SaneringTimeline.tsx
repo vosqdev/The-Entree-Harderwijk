@@ -27,6 +27,7 @@ type FilterKey = 'all' | '2025-2026' | '2027-2030' | '2030-2040';
 export const SaneringTimeline: React.FC<SaneringTimelineProps> = ({ onOpenContact }) => {
   const [activeFilter, setActiveFilter] = useState<FilterKey>('all');
   const [selectedId, setSelectedId] = useState<string>('consultatie-nov-2026');
+  const [bgError, setBgError] = useState(false);
   const railScrollRef = useRef<HTMLDivElement | null>(null);
 
   const filterEvents = (filter: FilterKey) =>
@@ -95,26 +96,40 @@ export const SaneringTimeline: React.FC<SaneringTimelineProps> = ({ onOpenContac
   return (
     <section
       id="proces"
-      className="py-20 lg:py-28 px-4 sm:px-6 lg:px-8 bg-[#F7F8F6] border-t border-[#E9E4D8]"
+      className="relative overflow-hidden py-20 lg:py-28 px-4 sm:px-6 lg:px-8 bg-[#141E21] text-white border-t border-[#E9E4D8]"
     >
-      <div className="max-w-7xl mx-auto">
+      {/* Full-bleed sunset smart-grid background image with balanced filter */}
+      <div className="absolute inset-0 z-0 overflow-hidden" aria-hidden="true">
+        {!bgError && (
+          <img
+            src="/assets/aistudio/achtergrond_2_36eb4021.png"
+            alt=""
+            referrerPolicy="no-referrer"
+            onError={() => setBgError(true)}
+            className="w-full h-full object-cover object-center scale-[1.02] brightness-[0.94] contrast-[1.05]"
+          />
+        )}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#11191C]/68 via-[#141E21]/50 to-[#11191C]/70" />
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto">
         {/* Header + Filter Tabs */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
           <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-2 text-xs font-semibold tracking-wide text-[#509799] mb-2">
+            <div className="inline-flex items-center gap-2 text-xs font-semibold tracking-wide text-[#7CD1D3] mb-2">
               <Milestone className="w-4 h-4" />
               <span>Proces, Beleid &amp; Doorkijk · Van 2025 naar 2040</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1F2928] tracking-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight drop-shadow-xs">
               Routekaart Smart Energyhub Zandlaan
             </h2>
-            <p className="mt-3 text-sm sm:text-base text-[#1F2928]/75">
+            <p className="mt-3 text-sm sm:text-base text-white/90 drop-shadow-xs">
               Selecteer een mijlpaal voor de beleidsmatige, contractuele en ruimtelijke stappen uit het Ambitiedocument.
             </p>
           </div>
 
           <div
-            className="grid grid-cols-2 sm:inline-flex sm:flex-wrap items-center gap-1 p-1 bg-white rounded-xl border border-[#E9E4D8] w-full sm:w-auto self-start lg:self-auto"
+            className="grid grid-cols-2 sm:inline-flex sm:flex-wrap items-center gap-1 p-1 bg-[#101A1D]/65 backdrop-blur-md rounded-xl border border-white/20 w-full sm:w-auto self-start lg:self-auto"
             role="tablist"
             aria-label="Filter routekaart op periode"
           >
@@ -132,8 +147,8 @@ export const SaneringTimeline: React.FC<SaneringTimelineProps> = ({ onOpenContac
                 onClick={() => handleFilterChange(tab.id as FilterKey)}
                 className={`px-3 sm:px-3.5 py-2 sm:py-1.5 rounded-lg text-xs font-semibold transition-colors text-center whitespace-nowrap shrink-0 cursor-pointer ${
                   activeFilter === tab.id
-                    ? 'bg-[#1F2928] text-white'
-                    : 'text-[#1F2928]/70 hover:text-[#1F2928]'
+                    ? 'bg-white text-[#1F2928]'
+                    : 'text-white/85 hover:text-white'
                 }`}
               >
                 {tab.label}
@@ -143,7 +158,7 @@ export const SaneringTimeline: React.FC<SaneringTimelineProps> = ({ onOpenContac
         </div>
 
         {/* Timeline Rail + Detail Stage */}
-        <div className="rounded-2xl border border-[#E9E4D8] bg-white overflow-hidden">
+        <div className="rounded-2xl border border-white/30 bg-white/95 backdrop-blur-md text-[#1F2928] shadow-2xl overflow-hidden">
           <div className="bg-[#FAF9F6] px-4 sm:px-6 pt-6 pb-5 border-b border-[#E9E4D8]">
             {n > 5 && (
               <div className="flex lg:hidden items-center justify-between mb-3">
